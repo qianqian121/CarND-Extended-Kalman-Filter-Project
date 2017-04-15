@@ -26,6 +26,16 @@ Self-Driving Car Engineer Nanodegree Program
    some sample inputs in 'data/'.
     - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
+## Output
+![data 1 output](figure_1.png)
+Accuracy - RMSE: [0.0651648, 0.0605379,  0.533212,  0.544193]
+
+*Threshold*: RMSE <= [0.08, 0.08, 0.60, 0.60]
+![data 2 ouput](figure_2.png)
+Accuracy - RMSE: [0.187541, 0.192276, 0.479958, 0.808536]
+
+*Threshold*: RMSE <= [0.20, 0.20, .50, .85]
+
 ## Editor Settings
 
 We've purposefully kept editor configuration files out of this repo in order to

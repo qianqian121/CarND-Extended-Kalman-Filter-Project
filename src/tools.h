@@ -3,6 +3,8 @@
 #include <vector>
 #include "Eigen/Dense"
 
+#define ZERO 1e-10
+
 class Tools {
 public:
   /**
